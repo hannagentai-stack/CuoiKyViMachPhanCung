@@ -1,0 +1,23 @@
+# ModelSim simulation artifacts
+work/
+transcript
+*.wlf
+vsim.wlf
+
+# Quartus compilation and intermediate files
+db/
+incremental_db/
+output_files/
+simulation/
+greybox_tmp/
+hc_output/
+*.rpt
+*.summary
+*.qws
+*.smsg
+*.bak
+*.done
+*.jdi
+*.pin
+*.sof
+*.pof

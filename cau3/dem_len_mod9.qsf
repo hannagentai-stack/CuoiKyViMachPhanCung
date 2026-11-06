@@ -1,0 +1,57 @@
+set_global_assignment -name FAMILY "Cyclone IV E"
+set_global_assignment -name DEVICE EP4CE115F29C7
+set_global_assignment -name TOP_LEVEL_ENTITY dem_len_mod9
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 20.1.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "10:00:00  NOVEMBER 06, 2026"
+set_global_assignment -name LAST_QUARTUS_VERSION "20.1.0 Lite Edition"
+set_global_assignment -name VHDL_FILE dem_len_mod9.vhd
+set_global_assignment -name RESERVE_ALL_UNUSED_PINS_WEAK_PULLUP "AS INPUT TRI-STATED WITH WEAK PULL-UP"
+
+# Pin assignments
+set_location_assignment PIN_Y2 -to clk
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to clk
+
+set_location_assignment PIN_M23 -to rst_n
+set_instance_assignment -name IO_STANDARD "2.5 V" -to rst_n
+
+set_location_assignment PIN_M21 -to nut
+set_instance_assignment -name IO_STANDARD "2.5 V" -to nut
+
+set_location_assignment PIN_AC28 -to tudong
+set_instance_assignment -name IO_STANDARD "2.5 V" -to tudong
+
+set_location_assignment PIN_F21 -to Q[3]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to Q[3]
+
+set_location_assignment PIN_E19 -to Q[2]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to Q[2]
+
+set_location_assignment PIN_F19 -to Q[1]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to Q[1]
+
+set_location_assignment PIN_G19 -to Q[0]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to Q[0]
+
+set_location_assignment PIN_E21 -to bao
+set_instance_assignment -name IO_STANDARD "2.5 V" -to bao
+
+set_location_assignment PIN_H22 -to HEX0[6]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to HEX0[6]
+
+set_location_assignment PIN_J22 -to HEX0[5]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to HEX0[5]
+
+set_location_assignment PIN_L25 -to HEX0[4]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to HEX0[4]
+
+set_location_assignment PIN_L26 -to HEX0[3]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to HEX0[3]
+
+set_location_assignment PIN_E17 -to HEX0[2]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to HEX0[2]
+
+set_location_assignment PIN_F22 -to HEX0[1]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to HEX0[1]
+
+set_location_assignment PIN_G18 -to HEX0[0]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to HEX0[0]

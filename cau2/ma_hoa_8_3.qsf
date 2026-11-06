@@ -1,0 +1,45 @@
+set_global_assignment -name FAMILY "Cyclone IV E"
+set_global_assignment -name DEVICE EP4CE115F29C7
+set_global_assignment -name TOP_LEVEL_ENTITY ma_hoa_8_3
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 20.1.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "10:00:00  NOVEMBER 06, 2026"
+set_global_assignment -name LAST_QUARTUS_VERSION "20.1.0 Lite Edition"
+set_global_assignment -name VHDL_FILE ma_hoa_8_3.vhd
+set_global_assignment -name RESERVE_ALL_UNUSED_PINS_WEAK_PULLUP "AS INPUT TRI-STATED WITH WEAK PULL-UP"
+
+# Pin assignments
+set_location_assignment PIN_AB26 -to I[7]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to I[7]
+
+set_location_assignment PIN_AD26 -to I[6]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to I[6]
+
+set_location_assignment PIN_AC26 -to I[5]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to I[5]
+
+set_location_assignment PIN_AB27 -to I[4]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to I[4]
+
+set_location_assignment PIN_AD27 -to I[3]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to I[3]
+
+set_location_assignment PIN_AC27 -to I[2]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to I[2]
+
+set_location_assignment PIN_AC28 -to I[1]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to I[1]
+
+set_location_assignment PIN_AB28 -to I[0]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to I[0]
+
+set_location_assignment PIN_E19 -to Y[2]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to Y[2]
+
+set_location_assignment PIN_F19 -to Y[1]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to Y[1]
+
+set_location_assignment PIN_G19 -to Y[0]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to Y[0]
+
+set_location_assignment PIN_E21 -to V
+set_instance_assignment -name IO_STANDARD "2.5 V" -to V

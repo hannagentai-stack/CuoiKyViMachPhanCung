@@ -1,0 +1,24 @@
+set_global_assignment -name FAMILY "Cyclone IV E"
+set_global_assignment -name DEVICE EP4CE115F29C7
+set_global_assignment -name TOP_LEVEL_ENTITY ham_k
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 20.1.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "10:00:00  NOVEMBER 06, 2026"
+set_global_assignment -name LAST_QUARTUS_VERSION "20.1.0 Lite Edition"
+set_global_assignment -name VHDL_FILE ham_k.vhd
+set_global_assignment -name RESERVE_ALL_UNUSED_PINS_WEAK_PULLUP "AS INPUT TRI-STATED WITH WEAK PULL-UP"
+
+# Pin assignments
+set_location_assignment PIN_AD27 -to A
+set_instance_assignment -name IO_STANDARD "2.5 V" -to A
+
+set_location_assignment PIN_AC27 -to B
+set_instance_assignment -name IO_STANDARD "2.5 V" -to B
+
+set_location_assignment PIN_AC28 -to C
+set_instance_assignment -name IO_STANDARD "2.5 V" -to C
+
+set_location_assignment PIN_AB28 -to D
+set_instance_assignment -name IO_STANDARD "2.5 V" -to D
+
+set_location_assignment PIN_G19 -to K
+set_instance_assignment -name IO_STANDARD "2.5 V" -to K
